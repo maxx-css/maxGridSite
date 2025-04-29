@@ -24,35 +24,35 @@ export const navLinks = [
 export const clientReviews = [
   {
     id: 1,
-    name: 'Emily Johnson',
-    position: 'Marketing Director at GreenLeaf',
-    img: 'assets/review1.png',
+    name: 'Dr. Neal Mesnick',
+    position: 'Founder at Advanced Sports Medicine and Rehabilitation',
+    img: 'assets/neil.png',
     review:
-      'Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.',
+      'Working with Max transformed our online presence. He took the time to understand our business and created a website that not only looks great but actually brings in new customers. The whole process was straightforward and worth every penny.',
   },
   {
     id: 2,
-    name: 'Mark Rogers',
-    position: 'Founder of TechGear Shop',
-    img: 'assets/review2.png',
+    name: 'David Finegan',
+    position: 'Founder at Whale Creek Co.',
+    img: 'assets/dave.jpg',
     review:
-      'Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.',
+      'Max took our business vision and translated it into a compelling investment narrative. The pitch deck they created wasn’t just visually stunning—it told our story with clarity and conviction, helping us secure the funding we needed to take Whale Creek to the next level.',
   },
   {
     id: 3,
-    name: 'John Dohsas',
-    position: 'Project Manager at UrbanTech ',
-    img: 'assets/review3.png',
+    name: 'Raj Gupta',
+    position: 'Visual Artist at Alchemy RG ',
+    img: 'assets/raj.jpg',
     review:
-      'I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.',
+      'Max understood exactly what I needed as an artist. He created a portfolio that not only showcases my work beautifully but gives me complete control over how it’s organized and presented. The system is intuitive enough that I can manage everything myself, which was essential to me.',
   },
   {
     id: 4,
-    name: 'Ether Smith',
-    position: 'CEO of BrightStar Enterprises',
-    img: 'assets/review4.png',
+    name: 'Lauryn Geimer',
+    position: 'Personal Assistant to Dee Wallace ',
+    img: 'assets/deelogo.png',
     review:
-      'Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.',
+      'Max made our life so much easier by truly listening to our needs and taking the right steps to improving our site. He is kind, energetic and true to his word. It can be hard to find people who really care about your work and know how to actually help improve it, so we’re beyond thrilled to be working with him.',
   },
 ];
 
@@ -117,19 +117,19 @@ export const myProjects = [
     ],
   },
   {
-    title: 'CarePulse - Health Management System',
+    title: 'Dee Wallace - Celebrity E Commerce',
     desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
     subdesc:
       'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
     href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
     texture: '/textures/project/project3.mp4',
-    logo: '/assets/project-logo3.png',
+    logo: '/assets/deelogo.png',
     logoStyle: {
-      backgroundColor: '#60f5a1',
-      background:
-        'linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)',
-      border: '0.2px solid rgba(208, 213, 221, 1)',
-      boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
+      // backgroundColor: '#60f5a1',
+      // background:
+      //   'linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)',
+      // border: '0.2px solid rgba(208, 213, 221, 1)',
+      // boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
     },
     spotlight: '/assets/spotlight3.png',
     tags: [
