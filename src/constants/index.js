@@ -61,15 +61,10 @@ export const myProjects = [
     title: 'Pax Media - Web Development Agency',
     desc: 'Pax Media is a digital agency that crafts clean websites and implements smart SEO strategies for small businesses.',
     subdesc:
-      'Built as a business website with HTML, CSS , Podcastr is designed for optimal performance and user experience.',
+      'Built as a business website with HTML, CSS , Pax Media is designed for optimal performance and user experience.',
     href: 'https://pax.media/',
     texture: '/textures/project/paxmediasitescroll.mp4',
     logo: '/assets/paxMediaLogo.png',
-    logoStyle: {
-      // backgroundColor: '#2A1816',
-      // border: '0.2px solid #36201D',
-      // boxShadow: '0px 0px 60px 0px #AA3C304D',
-    },
     spotlight: '/assets/spotlight1.png',
     tags: [
       {
@@ -92,11 +87,6 @@ export const myProjects = [
     href: 'https://alchemy-rg.vercel.app/',
     texture: '/textures/project/rajVideo.mp4',
     logo: '/assets/rajIcon.png',
-    logoStyle: {
-      // backgroundColor: '#13202F',
-      // border: '0.2px solid #17293E',
-      // boxShadow: '0px 0px 60px 0px #2F6DB54D',
-    },
     spotlight: '/assets/spotlight2.png',
     tags: [
       {
@@ -118,40 +108,28 @@ export const myProjects = [
   },
   {
     title: 'Dee Wallace - Celebrity E Commerce',
-    desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
+    desc: 'Iamdeewallace.com is the official website of Dee Wallace, serving as her personal and professional platform online. The site focuses on Dee Wallace’s work in the healing and self-improvement space. The site is built on WordPress and represented a technical challenge not seen in modern frameworks.',
     subdesc:
-      'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
-    href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
-    texture: '/textures/project/project3.mp4',
+      'With an extensive set of plugins and page types, Dee’s site demonstrates the power that WordPress wields as a multifunctional web builder.',
+    href: 'https://iamdeewallace.com/',
+    texture: '/textures/project/deesitescroll.mp4',
     logo: '/assets/deelogo.png',
-    logoStyle: {
-      // backgroundColor: '#60f5a1',
-      // background:
-      //   'linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)',
-      // border: '0.2px solid rgba(208, 213, 221, 1)',
-      // boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
-    },
     spotlight: '/assets/spotlight3.png',
     tags: [
       {
         id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
+        name: 'WordPress',
+        path: '/assets/wordpressicon.png',
       },
       {
         id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
+        name: 'php',
+        path: 'assets/phpicon.png',
       },
       {
         id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
-      },
-      {
-        id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
+        name: 'CSS',
+        path: '/assets/cssicon.png',
       },
     ],
   },
