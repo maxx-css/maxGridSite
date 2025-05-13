@@ -15,7 +15,9 @@ const Developer2 = ({ animationName = 'idle', ...props }) => {
   const clone = React.useMemo(() => SkeletonUtils.clone(scene), [scene]);
   const { nodes, materials } = useGraph(clone);
 
-  const { animations: idleAnimation } = useFBX('/models/animations/idle.fbx');
+  const { animations: idleAnimation } = useFBX(
+    '/models/animations/NorthernSoulFloorCombo.fbx'
+  );
   console.log('idleAnimation', idleAnimation);
 
   const { animations: saluteAnimation } = useFBX(
@@ -49,7 +51,7 @@ const Developer2 = ({ animationName = 'idle', ...props }) => {
   useEffect(() => {
     actions[animationName].reset().fadeIn(0.5).play();
     return () => actions[animationName].fadeOut(0.5);
-  }, [animationName]);
+  }, [actions,animationName]);
   return (
     <group {...props} dispose={null} ref={group}>
       <primitive object={nodes.Hips} />
@@ -110,7 +112,7 @@ const Developer2 = ({ animationName = 'idle', ...props }) => {
 };
 
 useGLTF.preload('/models/human/max2.glb');
-useFBX.preload('/models/animations/idle.fbx');
+useFBX.preload('/models/animations/NorthernSoulFloorCombo.fbx');
 useFBX.preload('/models/animations/salute.fbx');
 useFBX.preload('/models/animations/clapping.fbx');
 useFBX.preload('/models/animations/victory.fbx');

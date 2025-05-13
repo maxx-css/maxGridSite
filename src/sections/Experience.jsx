@@ -1,4 +1,4 @@
-import { Suspense, useState } from 'react';
+import { Suspense } from 'react';
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls } from '@react-three/drei';
 
@@ -7,8 +7,6 @@ import CanvasLoader from '../components/Loading.jsx';
 import { workExperiences } from '../constants/index.js';
 
 const WorkExperience = () => {
-  const [animationName, setAnimationName] = useState('idle');
-
   return (
     <section className='c-space my-20' id='work'>
       <div className='w-full text-white-600'>
@@ -24,9 +22,10 @@ const WorkExperience = () => {
 
               <Suspense fallback={<CanvasLoader />}>
                 <Developer2
-                  position-y={-6}
+                  position-y={-8}
+                  position-z={-4}
                   scale={4}
-                  animationName={animationName}
+                  rotation={[4, 0, 0]}
                 />
               </Suspense>
             </Canvas>
@@ -37,11 +36,6 @@ const WorkExperience = () => {
               {workExperiences.map((item, index) => (
                 <div
                   key={index}
-                  onClick={() => setAnimationName(item.animation.toLowerCase())}
-                  onPointerOver={() =>
-                    setAnimationName(item.animation.toLowerCase())
-                  }
-                  onPointerOut={() => setAnimationName('idle')}
                   className='work-content_container group'
                 >
                   <div className='flex flex-col h-full justify-start items-center py-2'>
